@@ -1,0 +1,109 @@
+.header {
+  padding: 70px;
+  background-color: #3b5d50;
+}
+
+.intro-expert .intro {
+  color: white;
+  font-size: 50px;
+}
+
+.text {
+  color: white;
+  font-size: 17px;
+  opacity: 0.4;
+}
+
+.btn-shop {
+  border-radius: 23px;
+  padding: 10px 25px;
+}
+.btn-shop:hover {
+  outline: 2px solid rgb(163, 156, 156);
+}
+
+.btn-explore {
+  border-radius: 23px;
+  padding: 10px 25px;
+  color: white;
+  background-color: transparent;
+}
+
+.btn-explore:hover {
+  background-color: transparent !important;
+  color: white !important;
+  border-color: white !important;
+}
+
+.img-coat {
+  position: relative;
+  display: inline-block;
+}
+
+.img-coat img {
+  position: relative;
+  z-index: 1;
+}
+
+.img-coat::after {
+  content: "";
+  position: absolute;
+  width: 255px;
+  height: 217px;
+  background-image: url(../images/dots-light.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  right: -100px;
+  top: 0px;
+}
+
+/* start product-section */
+.product-section {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-weight: 700;
+  color: #2f2f2f;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.product-btn {
+  border-radius: 23px;
+  padding: 10px 25px;
+  color: white;
+  background-color: #2f2f2f;
+  transition: all 0.3s ease-in-out;
+}
+
+.product-btn:hover {
+  background-color: transparent !important;
+  color: #2f2f2f !important;
+  border-color: #2f2f2f !important;
+}
+
+.product-1 {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-1 img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.product-1 h6 {
+  font-weight: 700;
+  margin: 10px 0 5px;
+}
+
+.product-1 p {
+  font-weight: 600;
+  color:  #2f2f2f ;
+}
+
+/* end product-section */

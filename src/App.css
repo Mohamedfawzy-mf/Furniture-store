@@ -1,0 +1,15 @@
+body {
+  font-family: 'Alexandria', sans-serif;
+}
+
+@font-face {
+  font-family: 'Alexandria';
+  src: url('/fonts/IBMPlexSansArabic-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Alexandria';
+  src: url('/fonts/IBMPlexSansArabic-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
