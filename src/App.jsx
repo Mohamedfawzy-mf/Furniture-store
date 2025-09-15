@@ -1,13 +1,19 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
-import NavBar from "./compnent/NavBar";
+import Header from "./compnent/pages/Header";
+import Shop from "./compnent/pages/Shop";
+import Home from "./compnent/Home";
+import AboutUs from "./compnent/pages/AboutUs";
 function App() {
   return (
     <BrowserRouter>
-      <NavBar />
       <Routes>
-        <Route path="/" element={<NavBar />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/home" element={<Header />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/about" element={<AboutUs />} />
       </Routes>
     </BrowserRouter>
   );

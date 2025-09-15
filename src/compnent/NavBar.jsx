@@ -48,7 +48,6 @@ function NavBar() {
         </Container>
       </Navbar>
 
-      <Header />
     </>
   );
 }

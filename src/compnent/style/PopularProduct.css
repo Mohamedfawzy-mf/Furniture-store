@@ -1,0 +1,36 @@
+.Title{
+    font-size: 20px;
+}
+.description{
+    font-size: 15px;
+    opacity: .7;
+}
+.img-fluid{
+    max-width:  100%;
+    width: 90%;
+}
+
+.read-more{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.826);
+}
+
+
+.product-img {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.product-img::after {
+  content: "";
+  width: 70%;
+  height: 70%;
+  position: absolute;
+  background: rgba(183, 182, 182, 0.208);
+  border-radius: 20%;
+  left: 30px;
+  top: 30px;
+  bottom: 0;
+  z-index: -2;
+}

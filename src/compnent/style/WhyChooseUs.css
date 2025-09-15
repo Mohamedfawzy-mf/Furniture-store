@@ -1,0 +1,47 @@
+
+
+.why-choose-img {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+
+.why-choose-photo {
+  border-radius: 20px;
+  position: relative;
+  z-index: 2;
+  max-width: 80%;
+  height: auto;
+  display: block;
+}
+
+.why-choose-img::after {
+  content: "";
+  position: absolute;
+  width: 255px;
+  height: 217px;
+  background-image: url(/public/images/dots-yellow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: -100px;
+  top: 0px;
+  z-index: 1;
+}
+
+
+.icon-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.icon-wrapper::after {
+  content: "";
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  background: rgba(59, 93, 80, 0.2);
+  border-radius: 50%;
+  right: -8px;
+  bottom: 0;
+}
