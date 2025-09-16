@@ -2,18 +2,21 @@ import WhyChooseUs from "./WhyChooseUs";
 import Button from "react-bootstrap/Button";
 import Testimonials from "./Testimonials";
 import NavBar from "../NavBar";
+import Footer from "../Footer";
+import "../style/AboutUs.css";
+
 function AboutUs() {
   return (
     <>
       <NavBar />
-       <div className="header">
+      <div className="header">
         <div className="container">
           <div className="row align-items-stretch">
             {/* Left Text */}
             <div className="col-lg-6 d-flex">
               <div className="intro-expert my-auto">
                 <h1 className="intro mb-4 fw-bold">
-                 About Us
+                  About Us
                   <br />
                 </h1>
                 <p className="text mb-4">
@@ -55,9 +58,97 @@ function AboutUs() {
           </div>
         </div>
       </div>
-      <WhyChooseUs />
-<Testimonials/>
 
+      <WhyChooseUs />
+      <div className="ourTeam ">
+        <div className="container">
+          <div className="row py-5">
+            <div className="col-lg-12 text-center my-5">
+              <h2>Our Team </h2>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <div className="person">
+                <img src="/public/images/person_1.jpg" alt="person-1" />
+                <h3>
+                  <a href="#">Lawson Arnold</a>
+                </h3>
+                <div className="title">
+                  <p>CEO, Founder, Atty.</p>
+                  <p>
+                    Separated they live in. Separated they live in
+                    Bookmarksgrove right at the coast of the Semantics, a large
+                    language ocean.
+                  </p>
+                </div>
+
+                <p>
+                  <a href="#">Learn More</a>
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <div className="person">
+                <img src="/public/images/person_2.jpg" alt="person-1" />
+                <h3>
+                  <a href="#">Lawson Arnold</a>
+                </h3>
+                <div className="title">
+                  <p>CEO, Founder, Atty.</p>
+                  <p>
+                    Separated they live in. Separated they live in
+                    Bookmarksgrove right at the coast of the Semantics, a large
+                    language ocean.
+                  </p>
+                </div>
+                <p>
+                  <a href="#">Learn More</a>
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <div className="person">
+                <img src="/public/images/person_3.jpg" alt="person-1" />
+                <h3>
+                  <a href="#">Lawson Arnold</a>
+                </h3>
+                <div className="title">
+                  <p>CEO, Founder, Atty.</p>
+                  <p>
+                    Separated they live in. Separated they live in
+                    Bookmarksgrove right at the coast of the Semantics, a large
+                    language ocean.
+                  </p>
+                </div>
+                <p>
+                  <a href="#">Learn More</a>
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <div className="person">
+                <img src="/public/images/person_4.jpg" alt="person-1" />
+                <h3>
+                  <a href="#">Lawson Arnold</a>
+                </h3>
+                <div className="title">
+                  <p>CEO, Founder, Atty.</p>
+                  <p>
+                    Separated they live in. Separated they live in
+                    Bookmarksgrove right at the coast of the Semantics, a large
+                    language ocean.
+                  </p>
+                </div>
+                <p>
+                  <a href="#">Learn More</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <Testimonials />
+      <Footer />
     </>
   );
 }

@@ -12,7 +12,7 @@ function Header() {
                 <h1 className="intro mb-4 fw-bold">
                   Modern Interior
                   <br />
-                  <span className="d-block">Design Studio</span>
+                  Design Studio
                 </h1>
                 <p className="text mb-4">
                   Donec vitae odio quis nisl dapibus malesuada. Nullam ac

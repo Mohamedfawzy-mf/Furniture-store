@@ -2,7 +2,6 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { RxPerson } from "react-icons/rx";
 import { CiShoppingCart } from "react-icons/ci";
-
 import "../compnent/style/NavBar.css";
 import Header from "./pages/Header";
 
@@ -47,7 +46,6 @@ function NavBar() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
     </>
   );
 }

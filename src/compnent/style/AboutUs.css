@@ -1,0 +1,12 @@
+.title p{
+    opacity: .7;
+}
+.person img {
+  max-width: 100%;
+  border-radius: 15px;
+  margin-bottom: 18px;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.829);
+}
